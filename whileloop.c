@@ -12,11 +12,11 @@ int main()
     printf("Please enter the highest value\n");
     scanf("%d", &highest_value);
 
-    int count = 0;
+    int count = 1;
 
-    while (count < highest_value)
+    while (count < highest_value + 1)
     {
-        printf("%d\n",count + 1);
+        printf("%d\n",count);
 
         count = count + 1;
     }
