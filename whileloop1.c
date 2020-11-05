@@ -13,11 +13,10 @@ int main ()
     printf("Please enter the highest value of your choice\n");
     scanf("%d",&max);
 
-    int count;
-
-    while (count < max)
+    while (max > 0)
     {
-        printf("%d\n",count - 1);
+        printf("%d\n",max);
+        max = max - 1;
     }
 
     return 0;
